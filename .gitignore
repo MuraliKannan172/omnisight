@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+backend/venv/
+
+# Node
+node_modules/
+frontend/dist/
+.vite/
+
+# Env / secrets
+.env
+*.local
+
+# Editor / tooling local state
+.claude/settings.local.json
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

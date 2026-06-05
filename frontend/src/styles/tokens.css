@@ -1,0 +1,51 @@
+:root {
+  /* Uranium-green accent ramp (var names kept stable across components) */
+  --accent-pink: #39ff14;   /* uranium neon green — primary */
+  --accent-violet: #00e676;  /* emerald glow */
+  --accent-cyan: #aaff00;    /* toxic lime */
+  --accent-lime: #ccff33;
+  --accent-amber: #ffd400;   /* warning accent (kept warm for contrast) */
+
+  /* Uranium glow */
+  --uranium: #39ff14;
+  --uranium-glow: rgba(57, 255, 20, 0.6);
+
+  /* Black backdrop */
+  --bg-0: #030503;
+  --bg-1: #081008;
+
+  /* Glass surfaces (faint green-tinted edges on black) */
+  --glass-bg: rgba(57, 255, 20, 0.05);
+  --glass-bg-strong: rgba(57, 255, 20, 0.1);
+  --glass-border: rgba(57, 255, 20, 0.16);
+  --glass-border-strong: rgba(57, 255, 20, 0.32);
+  --glass-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.85);
+  --glass-blur: 22px;
+
+  /* Text */
+  --text-hi: rgba(236, 255, 230, 0.96);
+  --text-mid: rgba(190, 230, 180, 0.7);
+  --text-lo: rgba(160, 200, 150, 0.45);
+
+  /* Gradients */
+  --grad-accent: linear-gradient(135deg, var(--accent-pink), var(--accent-violet) 55%, var(--accent-cyan));
+  --grad-text: linear-gradient(120deg, #ffffff, #d6ffc2 30%, #39ff14 60%, #aaff00);
+
+  /* Type */
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Geometry */
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --space-1: 0.5rem;
+  --space-2: 0.85rem;
+  --space-3: 1.25rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+
+  /* Motion */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 280ms;
+}
