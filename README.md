@@ -23,15 +23,37 @@ Everything runs on your machine. No API keys, no cloud, no images leaving your c
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-> _Add a screenshot of the running app here._ Save it as `docs/screenshot.png`, then it
-> will appear below:
+![OmniSight identifying components on an electronics board](docs/screenshot.png)
 
-<!-- ![OmniSight screenshot](docs/screenshot.png) -->
+> _OmniSight labelling 12 components on a real electronics board — Arduino, breadboards,
+> LCD, servos, transistors, LEDs, a buzzer and a 7-segment display._
 
-A vibrant **uranium-green-on-black glassmorphism** UI: drag-and-drop upload, a model
-picker, a drawing toolbar, the annotated image canvas, and a multi-turn conversation panel.
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/demo-microcontroller.png" alt="Pinpointing the microcontroller" /><br/>
+      <sub><b>Precise localization</b> — “What microcontroller is this?” → boxes the Arduino Uno.</sub>
+    </td>
+    <td width="50%">
+      <img src="docs/demo-ram-slots.png" alt="Showing where to fit RAM" /><br/>
+      <sub><b>Practical guidance</b> — “Where do I fit the RAM?” → marks both RAM slots.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/demo-multiturn.png" alt="Multi-turn follow-up finding the product ID" /><br/>
+      <sub><b>Multi-turn</b> — a follow-up locates the motherboard’s product ID.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <br/>
+      <sub>A vibrant <b>uranium-green-on-black glassmorphism</b> UI: drag-and-drop upload,
+      a model picker, a drawing toolbar, the annotated image canvas, and a multi-turn
+      conversation panel.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
